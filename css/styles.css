@@ -41,8 +41,8 @@ body{
     height: 45px;
     margin: 8px 20px 0px 0px;
 }
-.p{
-    position: relative;
+p{
+    background-color: #C7F2A4;
 }
 .TAGS{
     margin-top: 62px;
@@ -51,7 +51,11 @@ body{
     left: 240px;
     position: fixed;
     background-color: #FCFFB2;
+    display: flex;
+    flex-flow: row wrap ;
+    justify-content: space-around;
 }
+
 .SIDEBAR{
     margin-top:62px ;
     width: 240px;
@@ -63,9 +67,28 @@ body{
 .CONTENT{
     position: static;
     background-color: #FCFFB2;
-    height: 1000px;
+    height: auto;
     width: 1523px;
     left: 240px;
     top: 110px;
     display: flex;
+    flex-flow: column wrap;
+}
+
+.firstvideo{
+    width:auto;
+    height:293px;
+    background-color: red;
+    margin-left: 270px;
+    margin-top: 110px;
+    margin-right: 30px;
+}
+
+.videos{
+    width:auto;
+    height:293px;
+    background-color: red;
+    margin-left: 270px;
+    margin-right: 30px;
+    margin-top: 50px;
 }

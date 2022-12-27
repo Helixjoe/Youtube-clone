@@ -146,7 +146,6 @@ body{
     width: auto;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
     padding: 10px 10px 0px 10px;
     
 }
@@ -160,6 +159,7 @@ body{
     
     border-radius: 0px;
     margin: 0px 0px 10px 0px;
+    font-size: auto;
 }
 
 .channel{

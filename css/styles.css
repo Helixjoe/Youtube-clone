@@ -28,7 +28,8 @@ body{
     border-width: 0;
     background-color: #B6E388;
     width: 31.2%; // need to fix this
-    padding: 1px;
+    padding: 10px;
+    border-radius:25px;
 }
 
 .upload{
@@ -43,6 +44,7 @@ body{
 }
 p{
     background-color: #C7F2A4;
+    border-radius:30px;
 }
 .TAGS{
     margin-top: 62px;

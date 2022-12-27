@@ -43,7 +43,7 @@ body{
     height: 45px;
     margin: 8px 20px 0px 0px;
 }
-p{
+.tag{
     background-color: #C7F2A4;
     border-radius:40px;
 }
@@ -130,8 +130,44 @@ p{
     flex-flow: column;
     margin-left: 20px;
 }
-img{
+.thumb{
     height: auto;
     width: auto;
     border-radius: 15px;
+}
+.icon{
+    
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.videets{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 10px 10px 0px 10px;
+    
+}
+
+.deets{
+    display: flex;
+    flex-flow: column;
+    margin: auto auto 0px 10px;
+}
+.title{
+    
+    border-radius: 0px;
+    margin: 0px 0px 10px 0px;
+}
+
+.channel{
+    border-radius: 0px;
+    margin: 0px;
+}
+
+.Views{
+    border-radius: 0px;
+    margin: 0px;
 }

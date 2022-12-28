@@ -77,13 +77,44 @@ body{
     ::-webkit-scrollbar-thumb:hover {
     background: #88ba1c;  
     }
+
+
+/* SIDMENU */    
+
 .SIDEBAR{
     margin-top:62px ;
     width: 240px;
     height: 665px;
     background-color: #C7F2A4;
     position: fixed;
+    display: flex;
+    flex-flow:column wrap ;
+    padding: 20px;
 }
+
+.sidemenu1{
+    height: 180px;
+    width: 240px;
+    background-color: aquamarine;
+}
+.sidemenu2{
+    height: auto;
+    width: 240px;
+    background-color: aquamarine;
+}
+
+br{
+    outline: 10px;
+    color: blue;
+}
+.sidemenutext{
+    height: 60px;
+    width: auto;
+    background-color: brown;
+}
+
+
+
 
 .CONTENT{
     position: static;

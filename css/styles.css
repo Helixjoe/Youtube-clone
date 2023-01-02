@@ -176,7 +176,7 @@ br{
     height: auto;
     width: auto;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row;
     padding: 10px 10px 0px 10px;
     
 }
@@ -187,9 +187,9 @@ br{
     margin: auto auto 0px 10px;
 }
 .title{
-    
+
     border-radius: 0px;
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 5px 0px;
     font-size: auto;
 }
 

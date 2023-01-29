@@ -3,6 +3,11 @@ body {
 }
 p {
   color: #ffff;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+}
+p:hover {
+  color: red;
 }
 .HEADER {
   display: flex;

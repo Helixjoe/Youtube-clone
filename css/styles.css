@@ -88,18 +88,19 @@ p:hover {
 
 .SIDEBAR {
   overflow-y: scroll;
+  overflow-x: hidden;
   margin-top: 62px;
   width: 240px;
-  height: 665px;
+  height: 675px;
   background-color: #181818;
   position: fixed;
   display: flex;
-  flex-flow: column wrap;
-  padding: 20px;
+  flex-flow: row wrap;
+  /* padding: 20px; */
 }
 
 .sidemenu1 {
-  height: 180px;
+  height: auto;
   width: 240px;
   background-color: 181818;
 }
@@ -117,8 +118,13 @@ br {
   height: 200px;
   width: auto;
   background-color: #181818;
+  padding: 20px;
 }
 
+.sdContent {
+  height: 32px;
+  padding: 5px;
+}
 .CONTENT {
   position: static;
   background-color: #111111;

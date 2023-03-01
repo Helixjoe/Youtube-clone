@@ -5,6 +5,7 @@ p {
   color: #ffff;
   font-family: "Noto Sans", sans-serif;
   font-weight: 400;
+  display: inline-block;
 }
 p:hover {
   color: red;
@@ -124,6 +125,12 @@ br {
 .sdContent {
   height: 32px;
   padding: 5px;
+}
+.sdIcon {
+  margin-right: 30px;
+}
+.sdText {
+  font-size: 15px;
 }
 .CONTENT {
   position: static;
